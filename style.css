@@ -77,6 +77,15 @@ nav {
   margin: auto;
   padding-top: 50px;
 }
+
+.footnav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(4, 146, 255);
+  bottom: 0px;
+  position: fixed;
+  display: flex;
+}
 /* 배경, 레이아웃 등 기본 세팅*/
 
 /* setTimeout 실습,, */
