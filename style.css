@@ -106,8 +106,8 @@ h1 {
 }
 
 /* 캐러셀 실습 */
-.overflowhidden {
-  /* overflow: hidden; */
+.overflowHidden {
+  overflow: hidden;
 }
 
 .carouselContainer {

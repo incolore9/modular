@@ -22,18 +22,19 @@ setInterval(function () {
 
 // 캐러셀-구현만 집중해서 코드 줄이는 작업 필요함.
 document.querySelector(".carouselBtn1").addEventListener("click", function () {
-  document.querySelector(".overflowhidden").style.transform = "translate(0%)";
-
-  document.querySelector(".overflowhidden").style.transition = "all 0.5s";
-  // 하나만 추가했는데 아래에도 애니메이션이 적용됨.. 의도한 것은 아님
+  document.querySelector(".carouselContainer").style.transform =
+    "translate(0%)";
+  document.querySelector(".carouselContainer").style.transition = "all 0.5s";
 });
 
 document.querySelector(".carouselBtn2").addEventListener("click", function () {
-  document.querySelector(".overflowhidden").style.transform =
-    "translateX(-105%)";
+  document.querySelector(".carouselContainer").style.transform =
+    "translateX(-33.87%)";
+  document.querySelector(".carouselContainer").style.transition = "all 0.5s";
 });
 
 document.querySelector(".carouselBtn3").addEventListener("click", function () {
-  document.querySelector(".overflowhidden").style.transform =
-    "translate(-209.5%)";
+  document.querySelector(".carouselContainer").style.transform =
+    "translate(-67.74%)";
+  document.querySelector(".carouselContainer").style.transition = "all 0.5s";
 });
