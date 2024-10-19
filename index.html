@@ -8,18 +8,35 @@
       href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>modular 실습 데이터 조각 모음</title>
   </head>
   <body>
     <nav>
-      <button class="btn">lightMode 😎</button>
+      <button class="btn">PinkBg 😎</button>
     </nav>
     <div class="bg">
-      <!-- 본체 바디 시작 -->
+      <!-- 셋타임아웃,인터벌 실습 -->
       <div class="layout">
         <div class="setTimeoutP">
-          <p><span id="num">0</span>초 흐름..</p>
+          <h1><span id="num">0</span>초 흐름..</h1>
         </div>
+        <!-- 캐러셀 실습 -->
+        <div class="overflowhidden">
+          <div class="carouselContainer">
+            <div class="carouselSlide"></div>
+            <div class="carouselSlide"></div>
+            <div class="carouselSlide"></div>
+          </div>
+        </div>
+        <button class="carouselBtn1">1</button>
+        <button class="carouselBtn2">2</button>
+        <button class="carouselBtn3">3</button>
       </div>
       <!-- 본체 바디 끝 -->
     </div>
