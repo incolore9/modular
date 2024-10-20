@@ -38,3 +38,29 @@ document.querySelector(".carouselBtn3").addEventListener("click", function () {
     "translate(-67.74%)";
   document.querySelector(".carouselContainer").style.transition = "all 0.5s";
 });
+
+var now = 1;
+
+document
+  .querySelector(".carouselBtnNext")
+  .addEventListener("click", function () {
+    if (now == 1) {
+      document.querySelector(".carouselContainer").style.transform =
+        "translateX(-33.87%)";
+      document.querySelector(".carouselContainer").style.transition =
+        "all 0.5s";
+      now += 1;
+    } else if (now == 2) {
+      document.querySelector(".carouselContainer").style.transform =
+        "translate(-67.74%)";
+      document.querySelector(".carouselContainer").style.transition =
+        "all 0.5s";
+      now += 1;
+    } else if (now == 3) {
+      document.querySelector(".carouselContainer").style.transform =
+        "translate(0%)";
+      document.querySelector(".carouselContainer").style.transition =
+        "all 0.5s";
+      now -= 2;
+    }
+  });
