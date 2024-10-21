@@ -39,6 +39,7 @@ document.querySelector(".carouselBtn3").addEventListener("click", function () {
   document.querySelector(".carouselContainer").style.transition = "all 0.5s";
 });
 
+// '다음'버튼 구현
 var now = 1;
 
 document
@@ -64,3 +65,20 @@ document
       now -= 2;
     }
   });
+
+// 위 내용 응용: 자동 전환 캐러셀
+var time = 0;
+
+setInterval(function () {
+  time += 1;
+  if (time == 2) {
+    document.querySelector(".autoCarouselContainer").style.transform =
+      "translate(-33.3%)";
+    document.querySelector(".autoCarouselContainer").style.transition =
+      "all 0.5s";
+  }
+  if (time == 4) {
+    document.querySelector(".autoCarouselContainer").style.transform =
+      "translate(-66.66%)";
+  }
+}, 1000);

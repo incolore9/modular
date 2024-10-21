@@ -54,7 +54,7 @@
 
 .bg {
   width: 100vw;
-  height: 100vh;
+  height: 4000vh;
   background-color: rgb(255, 142, 231);
 }
 
@@ -157,4 +157,23 @@ h1 {
 }
 .carouselPink {
   background-color: rgb(255, 31, 110);
-}rgb(255, 0, 187)rgb(255, 0, 136)
+}
+
+/* 캐러셀 응용-자동으로 넘어가게.. */
+.autoCarousel_area {
+  margin: 20px 0px 20px;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.autoCarouselContainer {
+  width: 300%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.autoCarouselContent {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+  border-radius: 100px;
+}
