@@ -163,10 +163,10 @@ h1 {
 .autoCarousel_area {
   margin: 20px 0px 20px;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .autoCarouselContainer {
-  width: 300%;
+  width: 400%;
   display: flex;
   flex-wrap: nowrap;
 }

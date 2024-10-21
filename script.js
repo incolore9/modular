@@ -71,14 +71,20 @@ var time = 0;
 
 setInterval(function () {
   time += 1;
+  if (time == 1) {
+    document.querySelector(".autoCarouselContainer").style.transform =
+      "translate(-25%)";
+    document.querySelector(".autoCarouselContainer").style.transition =
+      "all 1s";
+  }
   if (time == 2) {
     document.querySelector(".autoCarouselContainer").style.transform =
-      "translate(-33.3%)";
-    document.querySelector(".autoCarouselContainer").style.transition =
-      "all 0.5s";
+      "translate(-50%)";
   }
-  if (time == 4) {
+  if (time == 3) {
     document.querySelector(".autoCarouselContainer").style.transform =
-      "translate(-66.66%)";
+      "translate(-75%)";
+    time -= 3;
   }
 }, 1000);
+// 처음으로 돌아갈 때 되감는 듯한 애니메이션은 어떻게 처리할 지 고민..
