@@ -64,6 +64,7 @@ nav {
   background-color: var(--purple);
   position: fixed;
   display: flex;
+  z-index: 99;
 }
 
 .blackBg {
@@ -210,7 +211,7 @@ h1 {
 .toggleArea1,
 .toggleArea2,
 .toggleArea3 {
-  width: 100%;
+  width: 80%;
   height: 120px;
   background-color: rgb(166, 255, 0);
   border-radius: 40px;
