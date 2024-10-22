@@ -177,3 +177,46 @@ h1 {
   background-color: blueviolet;
   border-radius: 100px;
 }
+
+/* 토글 메뉴 */
+.toggleContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.toggle1 {
+  width: 70%;
+  height: 60px;
+  background-color: rgb(247, 255, 26);
+  border-radius: 50px;
+  margin: 20px;
+}
+.toggle2 {
+  width: 70%;
+  height: 60px;
+  background-color: rgb(247, 255, 26);
+  border-radius: 50px;
+  margin: 20px;
+}
+.toggle3 {
+  width: 70%;
+  height: 60px;
+  background-color: rgb(247, 255, 26);
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.toggleArea1,
+.toggleArea2,
+.toggleArea3 {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(166, 255, 0);
+  border-radius: 40px;
+  display: none;
+}
+
+.open {
+  display: block;
+}

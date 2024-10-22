@@ -88,3 +88,30 @@ setInterval(function () {
   }
 }, 1000);
 // 처음으로 돌아갈 때 되감는 듯한 애니메이션은 어떻게 처리할 지 고민..
+
+// 토글 메뉴 실습
+document
+  .getElementsByClassName("toggle1")[0]
+  .addEventListener("click", function () {
+    document
+      .getElementsByClassName("toggleArea1")[0]
+      .classList.toggle("open");
+  });
+
+  document
+  .getElementsByClassName("toggle2")[0]
+  .addEventListener("click", function () {
+    document
+      .getElementsByClassName("toggleArea2")[0]
+      .classList.toggle("open");
+  });
+
+  document
+  .getElementsByClassName("toggle3")[0]
+  .addEventListener("click", function () {
+    document
+      .getElementsByClassName("toggleArea3")[0]
+      .classList.toggle("open");
+  });
+
+
