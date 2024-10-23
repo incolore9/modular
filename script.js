@@ -114,4 +114,6 @@ document
       .classList.toggle("open");
   });
 
+// 달력
+//HTML의 month element 가져오기
 

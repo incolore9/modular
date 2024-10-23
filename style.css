@@ -99,9 +99,29 @@ nav {
   text-align: center;
 }
 
-h1 {
+h2 {
   font-weight: 350;
   font-size: 20px;
+}
+
+.setTimeoutP:hover {
+  animation-name: mouse;
+  animation-duration: 3000ms;
+}
+
+@keyframes mouse {
+  0% {
+    transform: translateX(0px);
+  }
+  30% {
+    transform: translateX(-20px);
+  }
+  80% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .btn {
