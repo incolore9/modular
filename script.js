@@ -114,6 +114,20 @@ document
       .classList.toggle("open");
   });
 
-// 달력
-//HTML의 month element 가져오기
+// 체크박스
 
+document.querySelector('#check1').addEventListener('change', 유효성검사)
+document.querySelector('#check2').addEventListener('change', 유효성검사)
+document.querySelector('#check3').addEventListener('change', 유효성검사)
+document.querySelector('#check4').addEventListener('change', 유효성검사)
+
+function 판별식(){
+  return document.querySelector('#check1').checked && document.querySelector('#check2').checked && document.querySelector('#check3').checked &&
+  document.querySelector('#check4').checked
+}
+
+function 유효성검사(){
+  if (판별식()){alert('검사통과')}
+}
+
+// if (판별식){alert('검사통과')}
